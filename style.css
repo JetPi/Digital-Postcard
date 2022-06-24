@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border: 0px;
+    border-bottom: 2px solid gray;
+}
+
+.postcard{
+    width: 700px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.big-square{
+    box-sizing: border-box;
+    align-items: top;
+
+    display: flex;
+}
+
+.standard{
+    border: transparent;
+}
+
+.header{
+    background-color:  transparent;
+    width: 70%;
+    height: 60px;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.image-box{
+    height: 60px;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+}
+
+.image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60px;  
+}
+
+.text-box{
+    width: 60%;
+    height: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.send-box{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.button{
+    background-color: rgb(86, 140, 221);
+    color:  white;
+    text-align: center;
+    border: none;
+}
